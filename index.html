@@ -790,9 +790,12 @@
         <script type="text/javascript">
             (function () {
                 var options = {
+                    facebook: "1917401701821117", // Facebook page ID
                     whatsapp: "+919995574458", // WhatsApp number
                     call_to_action: "Say Hello !!", // Call to action
+                    button_color: "#FF6550", // Color of button
                     position: "right", // Position may be 'right' or 'left'
+                    order: "whatsapp,facebook", // Order of buttons
                 };
                 var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
                 var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
